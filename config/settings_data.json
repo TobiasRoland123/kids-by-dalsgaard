@@ -360,9 +360,9 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/brytny-com-C4rXIFSzEXk-unsplash.jpg",
               "dot_style": "light",
-              "product_1": "",
-              "product_1_horizontal_position": 30,
-              "product_1_vertical_position": 40,
+              "product_1": "bodystocking",
+              "product_1_horizontal_position": 54,
+              "product_1_vertical_position": 57,
               "product_2": "",
               "product_2_horizontal_position": 45,
               "product_2_vertical_position": 65,
@@ -392,9 +392,9 @@
           "look-1"
         ],
         "settings": {
-          "subheading": "Shop",
-          "title": "Our looks",
-          "show_mobile_product_info": false
+          "subheading": "Find din stil",
+          "title": "Lav dit look!",
+          "show_mobile_product_info": true
         }
       },
       "collection-template": {
