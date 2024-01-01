@@ -395,7 +395,7 @@
         "settings": {
           "subheading": "Find din stil",
           "title": "Lav dit look!",
-          "show_mobile_product_info": true
+          "show_mobile_product_info": false
         }
       },
       "collection-template": {
