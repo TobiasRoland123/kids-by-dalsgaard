@@ -213,7 +213,8 @@
       "redeem_html": "Brug denne kode ved kassen til at indløse dit gavekort, eller {{print_link}} denne side.",
       "shop_link": "Begynd at shoppe",
       "initial_amount_html": "Beløb: {{initial_amount}}",
-      "remaining_balance_html": "Saldo tilbage: {{balance}}"
+      "remaining_balance_html": "Saldo tilbage: {{balance}}",
+      "add_to_apple_wallet": "Føj til Apple Wallet"
     }
   },
   "404": {
@@ -284,5 +285,46 @@
       "from_price_html": "Fra {{min_price}}",
       "view_product": "Se produkt"
     }
+  },
+  "blog": {
+    "general": {
+      "no_articles": "Bloggen {{blog_title}} er tom",
+      "empty_button": "Tilbage til startsiden",
+      "all_tag": "Alle"
+    },
+    "article": {
+      "read_more": "Læs mere",
+      "written_by": "Skrevet af {{author}}",
+      "now_reading": "Læser nu:",
+      "share": "Del",
+      "next": "Næste",
+      "comments_count": {
+        "zero": "{{count}} kommentarer",
+        "one": "{{count}} kommentar",
+        "other": "{{count}} kommentarer"
+      }
+    },
+    "comments": {
+      "form_title": "Efterlad en kommentar",
+      "name_placeholder": "Navn",
+      "email_placeholder": "E-mail",
+      "comment_placeholder": "Indhold",
+      "approval_notice": "Alle kommentarer modereres, før de offentliggøres",
+      "submit": "Skriv kommentar",
+      "success": "Din kommentar er blevet offentliggjort.",
+      "success_moderated": "Din kommentar er blevet sendt. Det vil være synligt, når butiksejeren har accepteret det!"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Dit navn",
+      "email": "Din email",
+      "message": "Din besked",
+      "submit": "Send besked",
+      "successfully_sent": "Din besked er blevet sendt."
+    }
+  },
+  "date_formats": {
+    "month_day_year_time": "%B %d, %Y ved %I:%M%p"
   }
 }
