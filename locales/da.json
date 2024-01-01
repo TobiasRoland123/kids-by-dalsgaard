@@ -6,7 +6,12 @@
   },
   "search": {
     "general": {
-      "title": "Søg"
+      "title": "Søg",
+      "results_with_terms_count": {
+        "zero": "0 resultater for \" {{terms}} \"",
+        "one": "1 resultat for \" {{terms}} \"",
+        "other": "{{count}} resultater for \" {{terms}} \""
+      }
     }
   },
   "customer": {
@@ -40,6 +45,75 @@
       "email": "E-mail",
       "password": "Adgangskode",
       "submit": "Lav min profil"
+    },
+    "account": {
+      "title": "Min konto",
+      "welcome": "Velkommen tilbage, {{first_name}} !",
+      "logout": "Log ud",
+      "back_to_account": "Tilbage til konto",
+      "no_orders_title": "Mine Ordrer",
+      "no_orders_content": "Du har ikke afgivet nogen ordre endnu",
+      "no_addresses_title": "Ingen adresser",
+      "no_addresses_content": "Ingen adresser er gemt i øjeblikket",
+      "default_address": "Primær adresse",
+      "edit_addresses": "Rediger adresser",
+      "manage_addresses": "Administrer adresser"
+    },
+    "login": {
+      "title": "Log på",
+      "description": "Indtast venligst din e-mail og adgangskode:",
+      "email": "E-mail",
+      "password": "Adgangskode",
+      "forgot": "glemt kodeord?",
+      "submit": "Log på",
+      "register_label": "Har du ikke en konto?",
+      "register_link": "Skab en"
+    },
+    "orders": {
+      "order_number": "Bestille",
+      "date": "Dato",
+      "payment_status": "Betalingsstatus",
+      "fulfillment_status": "Opfyldelsesstatus"
+    },
+    "order": {
+      "title": "Bestil {{order_number}}",
+      "back_to_account": "Tilbage til konto",
+      "cancelled_at": "Ordren blev annulleret den {{ date }}",
+      "placed_at": "Ordre afgivet den {{ date }}",
+      "fulfillment_html": "Din ordre er blevet sendt. Spor forsendelsen med nummer {{tracking_number}} eller ved at klikke her: <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;\/span&gt;\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
+      "line_fulfillment_html": "Dit produkt \" {{product_title}} \" er blevet sendt. Spor forsendelsen med nummer {{tracking_number}} eller ved at klikke her: <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;\/span&gt;\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
+      "product": "Produkt",
+      "quantity": "Antal",
+      "discount": "Rabat",
+      "shipping": "Forsendelse",
+      "tax": "Skat",
+      "shipping_address": "Leveringsadresse",
+      "billing_address": "Betalingsadresse",
+      "no_shipping_address": "Der kræves ingen leveringsadresse for denne ordre."
+    },
+    "activate_account": {
+      "title": "Aktiver konto",
+      "description": "Indtast venligst en adgangskode for at oprette din konto:",
+      "password": "Adgangskode",
+      "password_confirmation": "Bekræft kodeord",
+      "submit": "Aktiver",
+      "decline": "Nedgang"
+    },
+    "recover_password": {
+      "title": "Gendan adgangskode",
+      "description": "Indtast venligst din e-mail:",
+      "email": "E-mail",
+      "submit": "Gendanne",
+      "success": "Vi har sendt dig en e-mail med instruktioner til at nulstille din adgangskode.",
+      "login_label": "Husk din adgangskode?",
+      "login_link": "Tilbage til login"
+    },
+    "reset_password": {
+      "title": "Nulstille kodeord",
+      "description": "Indtast venligst en ny adgangskode:",
+      "password": "Adgangskode",
+      "password_confirmation": "Bekræft kodeord",
+      "submit": "Nulstil"
     }
   },
   "cart": {
@@ -140,6 +214,75 @@
       "shop_link": "Begynd at shoppe",
       "initial_amount_html": "Beløb: {{initial_amount}}",
       "remaining_balance_html": "Saldo tilbage: {{balance}}"
+    }
+  },
+  "404": {
+    "general": {
+      "content": "Den side du leder efter kan ikke findes.",
+      "button": "Tilbage til startsiden"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "vendor_title": "Brands navn",
+      "product_title": "Produktets navn",
+      "product_description": "En produktbeskrivelse kan bruges til at fremvise funktionerne og fordelene ved dit produkt. Du kan tjekke Shopifys e-handelsblog for inspiration og råd til korrekt markedsføring af dine produkter.",
+      "collection_title": "Samlingens navn",
+      "article_name": "Postens navn",
+      "article_category": "Kategori",
+      "article_excerpt": "Din butik har endnu ikke udgivet nogen blogindlæg. En blog kan bruges til at tale om nye produktlanceringer, tips eller andre nyheder, du vil dele med dine kunder. Du kan tjekke Shopifys e-handelsblog for inspiration og råd til din egen butik og blog."
+    },
+    "featured_product": {
+      "view_product": "Se produktdetaljer"
+    },
+    "shop_the_look": {
+      "view_product": "Se dette produkt",
+      "view_products": "Se produkter",
+      "popover_title": "Shop looket"
+    },
+    "featured_video": {
+      "play": "Afspil video"
+    },
+    "newsletter": {
+      "input": "Indtast din e-mail",
+      "submit": "Abonner",
+      "success": "Du er blevet tilmeldt vores nyhedsbrev."
+    }
+  },
+  "collection_list": {
+    "general": {
+      "title": "Alle samlinger",
+      "empty_title": "Ingen samlinger",
+      "empty_button": "Tilbage til startsiden"
+    }
+  },
+  "collection": {
+    "general": {
+      "all_products": "Alle produkter",
+      "no_products": "Ingen produkter",
+      "empty": "Samlingen {{collection_title}} er tom",
+      "empty_button": "Tilbage til startsiden",
+      "reset": "Nulstil filtre",
+      "view_products": "Se produkter"
+    },
+    "filter": {
+      "show_filter": "Vis filtre",
+      "all": "Filtre",
+      "reset": "Nulstil",
+      "apply": "ansøge"
+    },
+    "sorting": {
+      "title": "Sortere",
+      "show_sort": "Vis sorter efter"
+    },
+    "layout": {
+      "show_one_per_row": "Vis et produkt pr. række",
+      "show_two_per_row": "Vis to produkter pr. række",
+      "show_four_per_row": "Vis fire produkter pr. række"
+    },
+    "product": {
+      "from_price_html": "Fra {{min_price}}",
+      "view_product": "Se produkt"
     }
   }
 }
