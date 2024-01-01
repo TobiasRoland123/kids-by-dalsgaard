@@ -149,11 +149,26 @@
               "button_2_text": "",
               "button_2_link": ""
             }
+          },
+          "98344a6d-fe6e-45fc-bb7f-87f32d3ab183": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/angela-mulligan-pJJcl8UJ7dg-unsplash.jpg",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "Tøj til",
+              "title": "De særlige Øjeblikke",
+              "button_1_text": "Se udvalg",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
           }
         },
         "block_order": [
           "slide-0",
-          "slide-1"
+          "slide-1",
+          "98344a6d-fe6e-45fc-bb7f-87f32d3ab183"
         ],
         "settings": {
           "show_fullscreen": true,
