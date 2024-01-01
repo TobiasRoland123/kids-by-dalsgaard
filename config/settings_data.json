@@ -125,12 +125,13 @@
           "slide-0": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/brina-blum-d-RwmHvHPPg-unsplash.jpg",
               "apply_overlay": true,
               "content_position": "bottomLeft",
-              "subheading": "Slide title",
-              "title": "Tell your story",
-              "button_1_text": "",
-              "button_1_link": "",
+              "subheading": "Se vores",
+              "title": "Tøj til Eventyr",
+              "button_1_text": "Se udvalg",
+              "button_1_link": "shopify:\/\/collections\/all",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -138,11 +139,12 @@
           "slide-1": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/pexels-vika-glitter-1648377.jpg",
               "apply_overlay": true,
               "content_position": "bottomLeft",
-              "subheading": "Slide title",
-              "title": "Tell your story",
-              "button_1_text": "",
+              "subheading": "Hold varmen",
+              "title": "Hele vinteren",
+              "button_1_text": "Se udvalg",
               "button_1_link": "",
               "button_2_text": "",
               "button_2_link": ""
