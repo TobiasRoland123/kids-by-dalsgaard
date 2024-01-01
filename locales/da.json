@@ -1,0 +1,145 @@
+{
+  "header": {
+    "navigation": {
+      "search": "Søg"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Søg"
+    }
+  },
+  "customer": {
+    "addresses": {
+      "title": "Mine adresser",
+      "empty": "Ingen adresser blev gemt endnu",
+      "edit": "Redigere",
+      "delete": "Slet",
+      "add_address": "Tilføj en ny adresse",
+      "edit_address": "Rediger en adresse",
+      "form_subtitle": "Udfyld venligst nedenstående oplysninger:",
+      "default_address_label": "Standardadresse",
+      "address_label": "Adresse {{position}}",
+      "first_name": "Fornavn",
+      "last_name": "Efternavn",
+      "company": "Selskab",
+      "address1": "adresse 1",
+      "address2": "Adresse 2",
+      "city": "By",
+      "country": "Land",
+      "province": "Provins",
+      "zip": "Postnummer",
+      "phone": "telefon",
+      "set_default": "Indstil som standardadresse"
+    },
+    "register": {
+      "title": "Tilmeld",
+      "description": "Udfyld venligst nedenstående oplysninger:",
+      "first_name": "Fornavn",
+      "last_name": "Efternavn",
+      "email": "E-mail",
+      "password": "Adgangskode",
+      "submit": "Lav min profil"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Vogn",
+      "empty": "din vogn er tom",
+      "empty_button": "Shop vores produkter",
+      "add_note": "Tilføj ordrebemærkning",
+      "edit_note": "Rediger ordrebemærkning",
+      "save_note": "Gemme",
+      "note_placeholder": "Hvordan kan vi hjælpe dig?",
+      "free_shipping": "Du er berettiget til gratis forsendelse!",
+      "free_shipping_remaining_html": "Brug {{remaining_amount}} mere og få gratis forsendelse!",
+      "shipping_and_taxes_notice": "Forsendelse og afgifter beregnes ved kassen",
+      "discount": "Rabat"
+    },
+    "items": {
+      "product": "Produkt",
+      "quantity": "Antal",
+      "set_quantity": "Indstil antal til {{new_quantity}}",
+      "remove": "Fjerne"
+    },
+    "shipping_estimator": {
+      "title": "Estimeret forsendelse",
+      "country": "Land",
+      "province": "Provins",
+      "zip_code": "Postnummer",
+      "estimate": "Skøn",
+      "one_result_title": "1 mulighed tilgængelig:",
+      "more_results_title": "{{count}} tilgængelige muligheder:",
+      "no_results_title": "Der kunne ikke findes nogen forsendelse"
+    }
+  },
+  "product": {
+    "general": {
+      "view_in_space": "Se i dit rum",
+      "include_taxes": "Skat inkluderet.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link link--accented\">Fragt beregnes<\/a> ved kassen."
+    },
+    "labels": {
+      "sold_out": "Udsolgt",
+      "on_sale": "På udsalg"
+    },
+    "slideshow": {
+      "go_to_image": "Vis billede {{i}}",
+      "close": "Luk (Esc)",
+      "previous": "Forrige (venstre pil)",
+      "next": "Næste (højre pil)",
+      "image_loading_error": "Dette billede kunne ikke indlæses. Prøv at genindlæse siden."
+    },
+    "form": {
+      "share": "Del",
+      "price": "Pris",
+      "quantity": "Antal",
+      "from_price_html": "Fra {{min_price}}",
+      "select_model": "Vælg denne model",
+      "size_chart": "Størrelses skema",
+      "inventory_quantity_count": {
+        "one": "{{count}} styk på lager.",
+        "other": "{{count}} styk på lager"
+      },
+      "low_inventory_quantity_count": {
+        "one": "Kun {{count}} styk på lager!",
+        "other": "Kun {{count}} styk på lager!"
+      },
+      "add_to_cart": "Tilføj til kurv",
+      "sold_out": "Udsolgt",
+      "pre_order": "Forudbestille",
+      "unavailable": "Ikke tilgængelig",
+      "view_info": "Mere information",
+      "view_images": "Se billeder"
+    },
+    "tabs": {
+      "reviews": "Anmeldelser"
+    },
+    "buy_it_with": {
+      "title": "Køb den med"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Se butiksoplysninger",
+      "check_other_stores": "Tjek tilgængelighed i andre butikker",
+      "pick_up_available": "Mulighed for afhentning",
+      "pick_up_currently_unavailable": "Afhentning i øjeblikket ikke tilgængelig",
+      "pick_up_available_at_html": "Kan afhentes på <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Afhentning i øjeblikket ikke tilgængelig på <strong>{{ location_name }}<\/strong>"
+    }
+  },
+  "gift_card": {
+    "issued": {
+      "subtext": "Her er dit gavekort!",
+      "illustration_alt": "Gavekort illustration",
+      "disabled": "Dit gavekort er deaktiveret.",
+      "expired": "Dit gavekort udløb {{ expiry }} .",
+      "expires_on": "Dit gavekort udløber den {{ expiry }} .",
+      "redeem_html": "Brug denne kode ved kassen til at indløse dit gavekort, eller {{print_link}} denne side.",
+      "shop_link": "Begynd at shoppe",
+      "initial_amount_html": "Beløb: {{initial_amount}}",
+      "remaining_balance_html": "Saldo tilbage: {{balance}}"
+    }
+  }
+}
