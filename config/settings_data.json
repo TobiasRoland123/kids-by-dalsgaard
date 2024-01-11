@@ -100,6 +100,14 @@
               "show_social_media": false
             }
           },
+          "text_zYhzFB": {
+            "type": "text",
+            "settings": {
+              "title": "Returnering",
+              "content": "<p>Skulle det ske at du ønker at returnere en vare skal du blot kontakte os gennem formularen på <a href=\"\/pages\/contact\" title=\"Kontakt\">kontakt siden<\/a>.<\/p>",
+              "show_social_media": false
+            }
+          },
           "text_NXB4Hm": {
             "type": "text",
             "settings": {
@@ -112,6 +120,7 @@
         "block_order": [
           "links_FXtBLz",
           "text_6qybWd",
+          "text_zYhzFB",
           "text_NXB4Hm"
         ],
         "settings": {
