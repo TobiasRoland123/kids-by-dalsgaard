@@ -169,7 +169,7 @@
       "quantity": "Antal",
       "set_quantity": "Indstil antal til {{new_quantity}}",
       "remove": "Fjern",
-      "total": ""
+      "total": "I alt"
     },
     "shipping_estimator": {
       "title": "Estimeret forsendelse",
