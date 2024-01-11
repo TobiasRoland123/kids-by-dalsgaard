@@ -1,7 +1,22 @@
 {
   "header": {
     "navigation": {
-      "search": "Søg"
+      "search": "Søg",
+      "title": "",
+      "sidebar_title": "",
+      "open_sidebar": "",
+      "close_sidebar": "",
+      "account": "",
+      "close_search": "",
+      "cart": "",
+      "open_cart": "",
+      "close_cart": "",
+      "skip_to_content": "",
+      "currency_selector": ""
+    },
+    "general": {
+      "locale": "",
+      "currency": ""
     }
   },
   "search": {
@@ -11,6 +26,19 @@
         "zero": "0 resultater for \" {{terms}} \"",
         "one": "1 resultat for \" {{terms}} \"",
         "other": "{{count}} resultater for \" {{terms}} \""
+      },
+      "content": "",
+      "input_placeholder": "",
+      "view_all": "",
+      "no_results": "",
+      "no_results_with_terms": "",
+      "pages": "",
+      "articles": "",
+      "pages_and_articles": "",
+      "results_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
       }
     }
   },
@@ -73,7 +101,8 @@
       "order_number": "Bestille",
       "date": "Dato",
       "payment_status": "Betalingsstatus",
-      "fulfillment_status": "Opfyldelsesstatus"
+      "fulfillment_status": "Opfyldelsesstatus",
+      "total": ""
     },
     "order": {
       "title": "Bestil {{order_number}}",
@@ -89,7 +118,10 @@
       "tax": "Skat",
       "shipping_address": "Leveringsadresse",
       "billing_address": "Betalingsadresse",
-      "no_shipping_address": "Der kræves ingen leveringsadresse for denne ordre."
+      "no_shipping_address": "Der kræves ingen leveringsadresse for denne ordre.",
+      "line_price": "",
+      "subtotal": "",
+      "total": ""
     },
     "activate_account": {
       "title": "Aktiver konto",
@@ -118,28 +150,31 @@
   },
   "cart": {
     "general": {
-      "title": "Vogn",
-      "empty": "din vogn er tom",
-      "empty_button": "Shop vores produkter",
-      "add_note": "Tilføj ordrebemærkning",
-      "edit_note": "Rediger ordrebemærkning",
-      "save_note": "Gemme",
+      "title": "Kurv",
+      "empty": "din kurv er tom",
+      "empty_button": "Se produkter i shop",
+      "add_note": "Tilføj kommentar til ordren",
+      "edit_note": "Rediger kommentar",
+      "save_note": "Gem",
       "note_placeholder": "Hvordan kan vi hjælpe dig?",
-      "free_shipping": "Du er berettiget til gratis forsendelse!",
+      "free_shipping": "Juhuu! du får gratis forsendelse!",
       "free_shipping_remaining_html": "Brug {{remaining_amount}} mere og få gratis forsendelse!",
       "shipping_and_taxes_notice": "Forsendelse og afgifter beregnes ved kassen",
-      "discount": "Rabat"
+      "discount": "Rabat",
+      "total": "",
+      "checkout": ""
     },
     "items": {
       "product": "Produkt",
       "quantity": "Antal",
       "set_quantity": "Indstil antal til {{new_quantity}}",
-      "remove": "Fjerne"
+      "remove": "Fjern",
+      "total": ""
     },
     "shipping_estimator": {
       "title": "Estimeret forsendelse",
       "country": "Land",
-      "province": "Provins",
+      "province": "By",
       "zip_code": "Postnummer",
       "estimate": "Skøn",
       "one_result_title": "1 mulighed tilgængelig:",
@@ -162,7 +197,8 @@
       "close": "Luk (Esc)",
       "previous": "Forrige (venstre pil)",
       "next": "Næste (højre pil)",
-      "image_loading_error": "Dette billede kunne ikke indlæses. Prøv at genindlæse siden."
+      "image_loading_error": "Dette billede kunne ikke indlæses. Prøv at genindlæse siden.",
+      "zoom": ""
     },
     "form": {
       "share": "Del",
@@ -184,7 +220,9 @@
       "pre_order": "Forudbestille",
       "unavailable": "Ikke tilgængelig",
       "view_info": "Mere information",
-      "view_images": "Se billeder"
+      "view_images": "Se billeder",
+      "variant_label": "",
+      "sku": ""
     },
     "tabs": {
       "reviews": "Anmeldelser"
@@ -214,13 +252,15 @@
       "shop_link": "Begynd at shoppe",
       "initial_amount_html": "Beløb: {{initial_amount}}",
       "remaining_balance_html": "Saldo tilbage: {{balance}}",
-      "add_to_apple_wallet": "Føj til Apple Wallet"
+      "add_to_apple_wallet": "Føj til Apple Wallet",
+      "print": ""
     }
   },
   "404": {
     "general": {
       "content": "Den side du leder efter kan ikke findes.",
-      "button": "Tilbage til startsiden"
+      "button": "Tilbage til startsiden",
+      "title": ""
     }
   },
   "home_page": {
@@ -270,7 +310,8 @@
       "show_filter": "Vis filtre",
       "all": "Filtre",
       "reset": "Nulstil",
-      "apply": "ansøge"
+      "apply": "ansøge",
+      "title": ""
     },
     "sorting": {
       "title": "Sortere",
@@ -302,7 +343,8 @@
         "zero": "{{count}} kommentarer",
         "one": "{{count}} kommentar",
         "other": "{{count}} kommentarer"
-      }
+      },
+      "previous": ""
     },
     "comments": {
       "form_title": "Efterlad en kommentar",
@@ -325,7 +367,9 @@
     }
   },
   "date_formats": {
-    "month_day_year_time": "%B %d, %Y ved %I:%M%p"
+    "month_day_year_time": "%B %d, %Y ved %I:%M%p",
+    "month_day_year": "",
+    "month_day_year_short": ""
   },
   "shopify": {
     "checkout": {
@@ -445,6 +489,53 @@
           }
         }
       }
+    }
+  },
+  "general": {
+    "meta": {
+      "tags": "",
+      "page": ""
+    },
+    "accessibility": {
+      "scroll_to_content": "",
+      "previous": "",
+      "next": ""
+    },
+    "announcement_bar": {
+      "close": ""
+    },
+    "popup": {
+      "close": "",
+      "email_placeholder": "",
+      "submit": "",
+      "success": ""
+    },
+    "password": {
+      "enter_password": "",
+      "password_input": "",
+      "password_submit": "",
+      "newsletter_input": "",
+      "newsletter_submit": "",
+      "newsletter_success": "",
+      "powered_by_html": "",
+      "login_title": "",
+      "login_link": ""
+    },
+    "pagination": {
+      "previous_page": "",
+      "next_page": "",
+      "go_to_page": ""
+    }
+  },
+  "footer": {
+    "general": {
+      "locale": "",
+      "currency": ""
+    },
+    "newsletter": {
+      "success": "",
+      "input": "",
+      "submit": ""
     }
   }
 }
