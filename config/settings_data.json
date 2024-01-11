@@ -85,10 +85,30 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "links_FXtBLz": {
+            "type": "links",
+            "settings": {
+              "menu": "find-rundt"
+            }
+          },
+          "text_6qybWd": {
+            "type": "text",
+            "settings": {
+              "title": "Kids By Dalsgård",
+              "content": "<p>Kids by Dalsgård er et unikt univers fyldt med de beste brands inden for børnetøj. Vi sælger tøj, som kan klare dit barns udvikling. <\/p>",
+              "show_social_media": true
+            }
+          }
+        },
+        "block_order": [
+          "links_FXtBLz",
+          "text_6qybWd"
+        ],
         "settings": {
-          "show_payment_methods": true,
-          "show_currency_selector": true,
-          "show_locale_selector": true
+          "show_payment_methods": false,
+          "show_currency_selector": false,
+          "show_locale_selector": false
         }
       },
       "slideshow": {
