@@ -161,7 +161,7 @@
       "free_shipping_remaining_html": "Brug {{remaining_amount}} mere og få gratis forsendelse!",
       "shipping_and_taxes_notice": "Forsendelse og afgifter beregnes ved kassen",
       "discount": "Rabat",
-      "total": "",
+      "total": "I alt ",
       "checkout": ""
     },
     "items": {
