@@ -507,9 +507,9 @@
           "page-contact-template-0": {
             "type": "text",
             "settings": {
-              "title": "Your phone (optional)",
+              "title": "Telefon (Valgfri)",
               "use_long_text": false,
-              "is_required": false
+              "is_required": true
             }
           }
         },
