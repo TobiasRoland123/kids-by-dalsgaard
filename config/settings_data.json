@@ -336,6 +336,7 @@
         "block_order": [
           "blog-0"
         ],
+        "disabled": true,
         "settings": {
           "subheading": "",
           "title": "Featured article",
