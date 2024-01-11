@@ -97,13 +97,22 @@
             "settings": {
               "title": "Kids By Dalsgård",
               "content": "<p>Kids by Dalsgård er et unikt univers fyldt med de beste brands inden for børnetøj. Vi sælger tøj, som kan klare dit barns udvikling. <\/p>",
+              "show_social_media": false
+            }
+          },
+          "text_NXB4Hm": {
+            "type": "text",
+            "settings": {
+              "title": "FØlg med",
+              "content": "",
               "show_social_media": true
             }
           }
         },
         "block_order": [
           "links_FXtBLz",
-          "text_6qybWd"
+          "text_6qybWd",
+          "text_NXB4Hm"
         ],
         "settings": {
           "show_payment_methods": false,
