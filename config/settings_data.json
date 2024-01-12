@@ -138,6 +138,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Til_Eventyr.webp",
+              "mobile_image": "shopify:\/\/shop_images\/til-eventyr-mobile.webp",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Se vores",
@@ -152,6 +153,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/varme-hele-vinteren.webp",
+              "mobile_image": "shopify:\/\/shop_images\/hele-vinteren-mobile.webp",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Hold varmen",
@@ -166,6 +168,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/de-s_rlige-oejeblikke.webp",
+              "mobile_image": "shopify:\/\/shop_images\/saerlige-ojeblike-mobile.webp",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Tøj til",
