@@ -11153,6 +11153,6 @@ shopify-payment-terms {
 }
 
 #shopify-section-text-with-image {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
 }
