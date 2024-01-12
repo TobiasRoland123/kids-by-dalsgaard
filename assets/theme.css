@@ -11151,3 +11151,8 @@ shopify-payment-terms {
 .text-with-image {
   max-width: 1200px !important;
 }
+
+#shopify-section-text-with-image {
+  display: flex;
+  align-items: center;
+}
