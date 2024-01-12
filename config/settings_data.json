@@ -542,6 +542,84 @@
           "show_shipping_estimator": true,
           "shipping_estimator_default_country": "United States"
         }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Levering"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Hvem levere pakken?",
+              "answer": "<p>hos Kids by Dalsgård  benytter vi primært Post Nord til at levere vores pakker, skulle du dog af en særlig grund ønske levering med en anden leverandør, kan dette sagtens lade sig gøre. Dette kræver blot at du kontakter os gennem vores <a href=\"\/pages\/kontakt\" title=\"Kontakt\">kontakt side<\/a><\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "Kna jeg følge min pakke?",
+              "answer": "<p>Når du bestiller hos Kids by Dalsgård får du automatisk tilsendt et pakkenummer, som du kan benytte til at tracke din pakke. Du kan følge pakken lige fra når den forlader os, og til den ender på din adresse, eller valgte pakkeshop.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "Hvor lang er leveringstiden?",
+              "answer": "<p>Efter normale  forhold vil vi have en leveringstid på ca 1-2 hverdage. <\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Returnering"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Kan jeg returnere produktet?",
+              "answer": "<p>Når du køber hos Kids by Dalsgård har du altid 30 dages fri returret. Du kan enten vælge blot at returnere enkelte produkter, såvel som det er muligt at returnere en hel ordre. <\/p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "Tilbagebetaling",
+              "answer": "<p>Så snart vi modtager det returnerede produkt vil du modtage pengene tilbage på samme kort, som du har benyttet til at handle hos os. <\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "Andet"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "Andre spørgsmål?",
+              "answer": "<p>Blev dit spørgsmål ikke besvaret her, så er du altid velkommen til at kontakte os gennem vores kontaktformular på <a href=\"\/pages\/kontakt\" title=\"Kontakt\">kontakt siden.<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-6",
+          "page-faq-template-7",
+          "page-faq-template-8"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
