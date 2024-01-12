@@ -69,9 +69,9 @@
         "type": "header",
         "settings": {
           "use_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/kids-by-dalsgaard-logo.svg",
-          "logo_max_width": 125,
-          "mobile_logo_max_width": 95,
+          "logo": "shopify:\/\/shop_images\/round_logo-small.svg",
+          "logo_max_width": 85,
+          "mobile_logo_max_width": 80,
           "show_currency_selector": true,
           "show_locale_selector": true,
           "navigation_menu": "main-menu",
