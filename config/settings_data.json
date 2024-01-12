@@ -38,6 +38,7 @@
     "cart_enable_notes": true,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "299",
+    "checkout_logo_image": "shopify:\/\/shop_images\/round_logo-small.svg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -529,6 +530,13 @@
           "content": "<p>Har du spørgsmål om vores sortiment af børnetøj eller brug for assistance med din bestilling? Vores kundeservice team står klar til at assistere dig. Udfyld venligst formularen nedenfor, og vi vil vende tilbage til dig hurtigst muligt.<\/p>",
           "link_text": "",
           "link_url": ""
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States"
         }
       }
     },
