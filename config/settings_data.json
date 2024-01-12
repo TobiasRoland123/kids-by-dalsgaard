@@ -198,18 +198,18 @@
       "featured-collections": {
         "type": "featured-collections",
         "blocks": {
-          "featured-collection-0": {
+          "collection_Q4JDAe": {
             "type": "collection",
             "settings": {
               "collection": "mest-populaere",
-              "title": "Mest populære",
+              "title": "",
               "grid_items_count": 8,
-              "button_text": "Se alle vores produkter"
+              "button_text": "Se flere produkter"
             }
           }
         },
         "block_order": [
-          "featured-collection-0"
+          "collection_Q4JDAe"
         ],
         "settings": {
           "title": "Se vores",
