@@ -10578,7 +10578,7 @@ shopify-payment-terms {
 }
 
 .Slideshow--fullscreen {
-  height: 100vh;
+  height: 70vh;
 }
 
 @supports (--css: variables) {
