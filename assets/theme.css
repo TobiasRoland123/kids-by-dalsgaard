@@ -10578,7 +10578,7 @@ shopify-payment-terms {
 }
 
 .Slideshow--fullscreen {
-  height: 70vh;
+  height: 100vh;
 }
 
 @supports (--css: variables) {
@@ -10587,7 +10587,7 @@ shopify-payment-terms {
     height: calc(
       var(--window-height) - (var(--header-height) * var(--header-is-not-transparent, 0)) - var(--announcement-bar-height, 0px)
     );
-    max-height: 100vh;
+    max-height: 70vh;
   }
 }
 /* Slideshow transition are handled in JavaScript, so while we use Flickity, we need to disable any transition */
