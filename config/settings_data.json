@@ -38,6 +38,7 @@
     "cart_enable_notes": true,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "299",
+    "favicon": "shopify:\/\/shop_images\/favicon.svg",
     "checkout_logo_image": "shopify:\/\/shop_images\/round_logo-small.svg",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
