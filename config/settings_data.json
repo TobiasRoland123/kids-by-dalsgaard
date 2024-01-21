@@ -27,7 +27,7 @@
     "text_font": "roboto_n4",
     "base_text_font_size": 16,
     "show_page_transition": false,
-    "search_mode": "product,article",
+    "search_mode": "product,article,page",
     "product_show_price_on_hover": false,
     "product_show_secondary_image": true,
     "product_info_alignment": "center",
