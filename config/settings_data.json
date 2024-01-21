@@ -388,27 +388,10 @@
               "product_3_horizontal_position": 70,
               "product_3_vertical_position": 50
             }
-          },
-          "look-1": {
-            "type": "look",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Child_Model.jpg",
-              "dot_style": "light",
-              "product_1": "skjorte",
-              "product_1_horizontal_position": 56,
-              "product_1_vertical_position": 45,
-              "product_2": "beige-bukser",
-              "product_2_horizontal_position": 58,
-              "product_2_vertical_position": 72,
-              "product_3": "vintersko",
-              "product_3_horizontal_position": 60,
-              "product_3_vertical_position": 90
-            }
           }
         },
         "block_order": [
-          "look-0",
-          "look-1"
+          "look-0"
         ],
         "settings": {
           "subheading": "Find din stil",
