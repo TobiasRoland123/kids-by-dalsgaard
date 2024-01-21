@@ -139,8 +139,8 @@
           "slide-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Til_Eventyr.webp",
-              "mobile_image": "shopify:\/\/shop_images\/til-eventyr-mobile.webp",
+              "image": "shopify:\/\/shop_images\/Img_0828_Desktop.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Img_0828_mobile.webp",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Se vores",
@@ -154,8 +154,8 @@
           "slide-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/varme-hele-vinteren.webp",
-              "mobile_image": "shopify:\/\/shop_images\/hele-vinteren-mobile.webp",
+              "image": "shopify:\/\/shop_images\/mg_5138_desktop.webp",
+              "mobile_image": "shopify:\/\/shop_images\/mg_5138.webp",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Hold varmen",
@@ -170,7 +170,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Joha_Basic_12_Desktop.webp",
-              "mobile_image": "shopify:\/\/shop_images\/saerlige-ojeblike-mobile.webp",
+              "mobile_image": "shopify:\/\/shop_images\/Joha_Basic_12.webp",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Tøj til",
