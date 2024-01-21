@@ -460,7 +460,7 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "show_share_buttons": false,
+          "show_share_buttons": true,
           "show_vendor": false,
           "show_sku": false,
           "show_taxes_included": false,
