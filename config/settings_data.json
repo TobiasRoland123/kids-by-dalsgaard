@@ -547,7 +547,7 @@
           "page-faq-template-2": {
             "type": "question",
             "settings": {
-              "title": "Kna jeg følge min pakke?",
+              "title": "Kan jeg følge min pakke?",
               "answer": "<p>Når du bestiller hos Kids by Dalsgård får du automatisk tilsendt et pakkenummer, som du kan benytte til at tracke din pakke. Du kan følge pakken lige fra når den forlader os, og til den ender på din adresse, eller valgte pakkeshop.<\/p>"
             }
           },
@@ -609,7 +609,7 @@
       "text-with-image-about-us": {
         "type": "text-with-image-about-us",
         "custom_css": [
-          "p {font-weight: 400; text-align: start; text-wrap: pretty !}"
+          "p {font-weight: 400; text-align: start; text-wrap: pretty;}"
         ],
         "settings": {
           "subheading": "Os bag Kids by Dalsgård",
