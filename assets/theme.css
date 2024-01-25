@@ -7481,7 +7481,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .FeatureText__ImageWrapper {
   overflow: hidden;
-  align-items: start;
 }
 
 .FeatureText--withImage .FeatureText__ContentWrapper {
@@ -7518,7 +7517,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   .FeatureText--withImage .FeatureText__ImageWrapper {
     display: table-cell;
     width: 50%;
-    vertical-align: middle;
+    vertical-align: top;
   }
 
   .FeatureText--withImage .FeatureText__ContentWrapper {
