@@ -1766,7 +1766,7 @@ input.spr-button-primary[disabled],
   background: var(--button-text-color);
   color: var(--button-background);
   cursor: pointer;
-  border:1px solid #D06146;
+  border: 1px solid #d06146;
   text-align: center;
   z-index: 1;
   box-shadow: 0 2px 10px rgba(54, 54, 54, 0.15);
@@ -7481,6 +7481,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .FeatureText__ImageWrapper {
   overflow: hidden;
+  align-items: start;
 }
 
 .FeatureText--withImage .FeatureText__ContentWrapper {
