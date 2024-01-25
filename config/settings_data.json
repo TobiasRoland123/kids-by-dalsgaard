@@ -609,7 +609,7 @@
       "text-with-image-about-us": {
         "type": "text-with-image-about-us",
         "custom_css": [
-          "p{font-weight:400}"
+          "p {font-weight: 400; text-align: start; text-wrap: pretty !}"
         ],
         "settings": {
           "subheading": "Os bag Kids by Dalsgård",
