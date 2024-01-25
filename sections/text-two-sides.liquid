@@ -28,7 +28,7 @@
   {%- endcapture -%}
 
 
-  {%- capture section_content -%}
+  {%- capture section_content-2 -%}
     <div class="FeatureText__ContentWrapper">
       <div class="FeatureText__Content">
         {%- if section.settings.subheading != blank or section.settings.title != blank or section.settings.content != blank -%}
@@ -74,13 +74,11 @@
   {%- endcapture -%} {% endcomment %}
 
   <div class="FeatureText {% if section.settings.image != blank %}FeatureText--withImage FeatureText--image{{ section.settings.image_position | capitalize }}{% endif %}">
-    {%- if section.settings.image_position == 'left' -%}
-      {{- section_image -}}
+
+
       {{- section_content -}}
-    {%- else -%}
-      {{- section_content -}}
-      {{- section_image -}}
-    {%- endif -%}
+      {{- section_content-2 -}}
+   
   </div>
 </section>
 
