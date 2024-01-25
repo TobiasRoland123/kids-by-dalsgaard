@@ -605,6 +605,20 @@
         ],
         "settings": {
         }
+      },
+      "text-with-image-about-us": {
+        "type": "text-with-image-about-us",
+        "custom_css": [
+          "p{font-weight:400}"
+        ],
+        "settings": {
+          "subheading": "Os bag Kids by Dalsgård",
+          "title": "Om Os!",
+          "image_position": "left",
+          "content": "<p>Velkommen til Kids by Dalsgaard, vores lille hjørne af Faxe by, hvor familie og børneglæde er i centrum. Mit navn er Mette, og sammen med min familie har jeg taget skridtet til at realisere en længe næret drøm: at åbne en webshop dedikeret til kvalitetstøj for de yngste.<br\/><br\/>Til dagligt er jeg engageret i mit arbejde som privat børnepasser, hvor jeg med stor omsorg passer på \"mine\" børn i vores egen lille pasningsordning. Denne dyrebare forbindelse til børnenes verden og forståelsen for deres behov har inspireret mig til at skabe Kids by Dalsgaard.<br\/><br\/>Vores webshop fokuserer på det anerkendte JOHA-tøj, kendt for dets kvalitet og komfort, som passer perfekt til børns aktive liv. Vi har indrettet et værelse i vores hjem til dette formål og ser frem til at byde jer indenfor til planlagte \"room-sales\", hvor I kan opleve vores produkter i et hyggeligt og personligt miljø.<br\/><br\/>Med mere end 10 års erfaring fra institutionslivet har jeg oparbejdet et solidt kendskab til, hvad der fungerer bedst for børn, og dette har været en uundværlig guide i udvælgelsen af vores sortiment.<br\/><br\/>Vi inviterer jer til at deltage i vores rejse og være en del af Kids by Dalsgaards univers. Selvom vi er ved begyndelsen af denne spændende rejse og stadig har meget at lære, ser vi frem til at dele vores passion og viden med jer.<br\/><br\/>Følg med på vores sociale medieplatforme for løbende opdateringer og bliv en del af vores voksende fællesskab. Vi glæder os til at byde jer velkommen og håber, at I vil støtte os på denne rejse gennem børneuniverset. Velkommen til Kids by Dalsgaard!<\/p>",
+          "link_text": "",
+          "link_url": ""
+        }
       }
     },
     "content_for_index": [
