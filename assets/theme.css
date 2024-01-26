@@ -1141,7 +1141,7 @@ body {
 
 .Link {
   transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-  display: block;
+  /* display: block; */
   text-transform: lowercase;
 }
 
