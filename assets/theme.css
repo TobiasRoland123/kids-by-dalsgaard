@@ -9046,6 +9046,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     top: var(--header-base-height);
     margin-bottom: -50px;
     width: 70px;
+    border: 1px red solid;
   }
   @supports (--css: variables) {
     .Product__Gallery--stack .Product__SlideshowNav--thumbnails {
