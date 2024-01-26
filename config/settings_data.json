@@ -632,6 +632,7 @@
             "type": "collection",
             "settings": {
               "collection": "frontpage",
+              "image": "shopify:\/\/shop_images\/Img_9564_mobile.webp",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
               "subheading": "Sub-heading",
