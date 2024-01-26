@@ -627,6 +627,22 @@
       },
       "list-collections-template": {
         "type": "list-collections-template",
+        "blocks": {
+          "collection_Ctaa3Y": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Heading",
+              "button_text": "View products"
+            }
+          }
+        },
+        "block_order": [
+          "collection_Ctaa3Y"
+        ],
         "settings": {
           "collections_to_show": "all",
           "image_size": "normal",
