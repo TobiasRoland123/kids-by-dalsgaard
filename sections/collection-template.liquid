@@ -274,9 +274,9 @@
                         {%- endif -%}
 
                         <li class="Linklist__Item {% if current_tags contains tag %}is-selected{% endif %}">
-                          <button type="button" class="Link Link--primary Text--subdued {% if current_tags contains tag %}is-active{% endif %}" data-tag="{{ tag | handle }}" data-action="toggle-tag">
+                          {% comment %} <button type="button" class="Link Link--primary Text--subdued {% if current_tags contains tag %}is-active{% endif %}" data-tag="{{ tag | handle }}" data-action="toggle-tag">
                             {{- tag -}}
-                          </button>
+                          </button> {% endcomment %}
                         </li>
                       {%- endfor -%}
                     </ul>
