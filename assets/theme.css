@@ -1146,7 +1146,7 @@ body {
 }
 
 .link::first-letter {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 
 .supports-hover .Link--primary:hover,
