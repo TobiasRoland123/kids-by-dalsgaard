@@ -267,8 +267,9 @@
                   <div class="Collapsible__Content">
                     <ul class="Linklist">
                       {%- for tag in collection.all_tags -%}
-                        {%- unless tag contains 'forudbestil' -%}
+                       
                         {%- if tag contains '__' -%}
+                          {%- unless tag contains 'forudbestil' -%}
                           {%- continue -%}
                         {%- endif -%}
 
