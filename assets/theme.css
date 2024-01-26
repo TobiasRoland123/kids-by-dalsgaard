@@ -1145,7 +1145,7 @@ body {
   text-transform: lowercase;
 }
 
-.link::first-letter {
+.link:first-letter {
   text-transform: uppercase !important;
 }
 
