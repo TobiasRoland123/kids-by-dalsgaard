@@ -38,33 +38,30 @@
           {%- else -%}
             {{- page.title -}}
           {%- endif -%}
-        </h1>
+        </h1>okok
       </div>
     </header>
 
     <div class="CollectionList CollectionList--grid {% if section.settings.add_spacing %}CollectionList--spaced{% endif %}">
-      {%- assign items = linklist.links | log -%}
       {%- if linklist.handle != blank -%}
         {%- for link in linklist.links -%}
-          {%- if link.type != 'collection_link' or link.object.handle == 'forudbestil' -%}
+          {%- if link.type != 'collection_link' -%}
             {%- continue -%}
           {%- endif -%}
-      
+
           {%- render 'collection-item', collection: link.object, apply_overlay: section.settings.apply_overlay -%}
         {%- endfor -%}
       {%- else -%}
         {%- if section.settings.collections_to_show == 'all' -%}
           {%- for collection in collections -%}
-            {%- unless collection.handle == 'frontpage' or collection.handle == 'forudbestil' -%}
+            {%- unless collection.handle == 'frontpage' -%}
               {%- render 'collection-item', collection: collection, apply_overlay: section.settings.apply_overlay -%}
             {%- endunless -%}
           {%- endfor -%}
         {%- else -%}
           {%- for block in section.blocks -%}
             {%- assign collection = collections[block.settings.collection] -%}
-            {%- unless collection.handle == 'forudbestil' -%}
-              {%- render 'collection-item', collection: collection, apply_overlay: section.settings.apply_overlay, block: block -%}
-            {%- endunless -%}
+            {%- render 'collection-item', collection: collection, apply_overlay: section.settings.apply_overlay, block: block -%}
           {%- endfor -%}
         {%- endif -%}
       {%- endif -%}
