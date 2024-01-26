@@ -269,7 +269,7 @@
                     <ul class="Linklist">
                       {%- for tag in collection.all_tags -%}
                         {%- if tag contains '__' -%}
-                          {%- unless collection.tags contains 'forudbestil' -%}
+                          {%- unless tag | handle contains 'forudbestil' -%}
                           {%- continue -%}
                         {%- endif -%}
 
