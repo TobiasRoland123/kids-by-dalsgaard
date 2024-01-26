@@ -43,6 +43,7 @@
     </header>
 
     <div class="CollectionList CollectionList--grid {% if section.settings.add_spacing %}CollectionList--spaced{% endif %}">
+      {%- assign items = linklist.links | log -%}
       {%- if linklist.handle != blank -%}
         {%- for link in linklist.links -%}
           {%- if link.type != 'collection_link' or link.object.handle == 'forudbestil' -%}
