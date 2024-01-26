@@ -9246,6 +9246,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .size-guide {
   color: #4469af;
   text-decoration: underline;
+  margin-top: 8px;
 }
 
 .Product__ShareItem {
