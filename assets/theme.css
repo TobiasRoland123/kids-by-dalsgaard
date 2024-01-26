@@ -9214,6 +9214,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   visibility: visible;
   opacity: 1;
   transition: visibility 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  border: 1px solid red !important;
 }
 
 .Product__ActionList.is-hidden {
@@ -9237,7 +9238,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   top: 100%;
   right: 0;
   color: var(--text-color);
-  border: 1px solid red !important;
 }
 
 .Product__ActionItem .Icon--share {
