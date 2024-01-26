@@ -9244,7 +9244,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 .test-class {
-  border: 1px solid red !important;
+  color: #4469af;
+  text-decoration: underline;
 }
 
 .Product__ShareItem {
