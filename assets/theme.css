@@ -9243,7 +9243,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-left: -1px;
 }
 
-.test-class {
+.size-guide {
   color: #4469af;
   text-decoration: underline;
 }
