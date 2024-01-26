@@ -1145,14 +1145,14 @@ body {
   text-transform: lowercase;
 }
 
-.link:first-letter {
-  text-transform: uppercase !important;
-  color:red;
-}
-
 .supports-hover .Link--primary:hover,
 .Link--primary.is-active {
   color: var(--text-color);
+}
+
+.Link--primary::first-letter {
+  text-transform: uppercase !important;
+  color: red;
 }
 
 .supports-hover .Link--secondary:hover,
