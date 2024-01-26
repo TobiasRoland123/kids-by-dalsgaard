@@ -1152,7 +1152,6 @@ body {
 
 .Link--primary::first-letter {
   text-transform: uppercase !important;
-  color: red;
 }
 
 .supports-hover .Link--secondary:hover,
