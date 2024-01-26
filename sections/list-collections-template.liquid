@@ -45,23 +45,25 @@
     <div class="CollectionList CollectionList--grid {% if section.settings.add_spacing %}CollectionList--spaced{% endif %}">
       {%- if linklist.handle != blank -%}
         {%- for link in linklist.links -%}
-          {%- if link.type != 'collection_link' -%}
+          {%- if link.type != 'collection_link' or link.object.handle == 'forudbestil' -%}
             {%- continue -%}
           {%- endif -%}
-
+      
           {%- render 'collection-item', collection: link.object, apply_overlay: section.settings.apply_overlay -%}
         {%- endfor -%}
       {%- else -%}
         {%- if section.settings.collections_to_show == 'all' -%}
           {%- for collection in collections -%}
-            {%- unless collection.handle == 'frontpage' -%}
+            {%- unless collection.handle == 'frontpage' or collection.handle == 'forudbestil' -%}
               {%- render 'collection-item', collection: collection, apply_overlay: section.settings.apply_overlay -%}
             {%- endunless -%}
           {%- endfor -%}
         {%- else -%}
           {%- for block in section.blocks -%}
             {%- assign collection = collections[block.settings.collection] -%}
-            {%- render 'collection-item', collection: collection, apply_overlay: section.settings.apply_overlay, block: block -%}
+            {%- unless collection.handle == 'forudbestil' -%}
+              {%- render 'collection-item', collection: collection, apply_overlay: section.settings.apply_overlay, block: block -%}
+            {%- endunless -%}
           {%- endfor -%}
         {%- endif -%}
       {%- endif -%}
