@@ -257,7 +257,7 @@
             </div>
           {%- endif -%}
 
-          {%- if has_visible_tags -%}
+          {% comment %} {%- if has_visible_tags -%}
             {%- if section.settings.filter_mode == 'tag' -%}
               <div class="Collapsible Collapsible--padded Collapsible--autoExpand">
                 <button type="button" class="Collapsible__Button Heading u-h6" data-action="toggle-collapsible" aria-expanded="false">
@@ -274,9 +274,9 @@
                         {%- endif -%}
 
                         <li class="Linklist__Item {% if current_tags contains tag %}is-selected{% endif %}">
-                          {% comment %} <button type="button" class="Link Link--primary Text--subdued {% if current_tags contains tag %}is-active{% endif %}" data-tag="{{ tag | handle }}" data-action="toggle-tag">
+                          <button type="button" class="Link Link--primary Text--subdued {% if current_tags contains tag %}is-active{% endif %}" data-tag="{{ tag | handle }}" data-action="toggle-tag">
                             {{- tag -}}
-                          </button> {% endcomment %}
+                          </button>
                         </li>
                       {%- endfor -%}
                     </ul>
@@ -347,7 +347,7 @@
               {%- endfor -%}
             {%- endif -%}
           {%- endif -%}
-        {%- endcapture -%}
+        {%- endcapture -%} {% endcomment %}
 
         <div id="collection-filter-drawer" class="CollectionFilters Drawer Drawer--secondary Drawer--fromRight" aria-hidden="true">
           <header class="Drawer__Header Drawer__Header--bordered Drawer__Header--center Drawer__Container">
