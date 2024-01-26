@@ -73,7 +73,7 @@
         "type": "header",
         "settings": {
           "use_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/round_logo-small.svg",
+          "logo": "shopify:\/\/shop_images\/logo.svg",
           "logo_max_width": 85,
           "mobile_logo_max_width": 80,
           "show_currency_selector": true,
