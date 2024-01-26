@@ -1141,6 +1141,11 @@ body {
 
 .Link {
   transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  display: block;
+}
+
+.link::first-letter {
+  text-transform: uppercase;
 }
 
 .supports-hover .Link--primary:hover,
