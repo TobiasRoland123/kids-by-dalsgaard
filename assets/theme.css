@@ -9237,6 +9237,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   top: 100%;
   right: 0;
   color: var(--text-color);
+  border: 1px solid red !important;
 }
 
 .Product__ActionItem .Icon--share {
