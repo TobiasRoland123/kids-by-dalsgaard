@@ -245,7 +245,7 @@
                 <div class="Collapsible__Content">
                   <ul class="Linklist">
                     {%- for link in quick_links.links -%}
-                      {%- unless link contains 'forudbestil' -%}
+                      {%- unless link.handle contains 'forudbestil' -%}
                       
                       <li class="Linklist__Item {% if link.active %}is-selected{% endif %}">
                         <a href="{{ link.url }}" class="Link Link--primary Text--subdued {% if link.active %}is-active{% endif %}">{{ link.title | escape }}</a>
@@ -268,8 +268,8 @@
                   <div class="Collapsible__Content">
                     <ul class="Linklist">
                       {%- for tag in collection.all_tags -%}
-                        {%- unless tag contains 'forudbestil' -%}
                         {%- if tag contains '__' -%}
+                          {%- unless tag contains 'forudbestil' -%}
                           {%- continue -%}
                         {%- endif -%}
 
