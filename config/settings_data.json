@@ -155,8 +155,8 @@
           "slide-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/mg_5138_desktop.webp",
-              "mobile_image": "shopify:\/\/shop_images\/mg_5138.webp",
+              "image": "shopify:\/\/shop_images\/img_5056-desktop.webp",
+              "mobile_image": "shopify:\/\/shop_images\/img_5056-mobile.webp",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Hold varmen",
