@@ -513,14 +513,14 @@
       "text-with-image": {
         "type": "text-with-image",
         "custom_css": [
-          "svg{max-width:50px !important;}"
+          "svg {max-width: 50px !important;}"
         ],
         "settings": {
           "subheading": "Vi er her for at hjælpe!",
           "title": "Kontakt Os",
           "image": "shopify:\/\/shop_images\/logo.svg",
           "image_position": "right",
-          "content": "<p>Har du spørgsmål om vores sortiment af børnetøj eller brug for assistance med din bestilling? Vores kundeservice team står klar til at assistere dig. Udfyld venligst formularen nedenfor, og vi vil vende tilbage til dig hurtigst muligt.<\/p>",
+          "content": "<p>Har du spørgsmål angående vores udvalg af børnetøj eller behov for hjælp med din bestilling? <br\/>Vi sider klar til at hjælpe dig.<br\/>Udfyld venligst formularen nedenfor, og vi vil vende tilbage til dig så hurtigt som muligt.<\/p>",
           "link_text": "",
           "link_url": ""
         }
@@ -678,6 +678,27 @@
           "show_color_swatch": false,
           "grid_mobile_items_per_row": "2",
           "grid_desktop_items_per_row": 4
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": false,
+          "show_tags": false,
+          "show_featured_article": true,
+          "show_category": false
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "settings": {
+          "show_section": false,
+          "title": "Shop now",
+          "collection": "",
+          "grid_items_count": 6,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
         }
       }
     },
