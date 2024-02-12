@@ -545,7 +545,7 @@
             "type": "question",
             "settings": {
               "title": "Hvem levere pakken?",
-              "answer": "<p>hos Kids by Dalsgård  benytter vi primært Post Nord til at levere vores pakker, skulle du dog af en særlig grund ønske levering med en anden leverandør, kan dette sagtens lade sig gøre. Dette kræver blot at du kontakter os gennem vores <a href=\"\/pages\/kontakt\" title=\"Kontakt\">kontakt side<\/a><\/p>"
+              "answer": "<p>hos Kids by Dalsgård  benytter vi primært GLS til at levere vores pakker, skulle du dog af en særlig grund ønske levering med en anden leverandør, kan dette sagtens lade sig gøre. Dette kræver blot at du kontakter os gennem vores <a href=\"\/pages\/kontakt\" title=\"Kontakt\">kontakt side<\/a><\/p>"
             }
           },
           "page-faq-template-2": {
@@ -559,7 +559,7 @@
             "type": "question",
             "settings": {
               "title": "Hvor lang er leveringstiden?",
-              "answer": "<p>Efter normale  forhold vil vi have en leveringstid på ca 1-2 hverdage. <\/p>"
+              "answer": "<p>Efter normale  forhold vil vi have en leveringstid på ca 2-5 hverdage. <\/p>"
             }
           },
           "page-faq-template-4": {
@@ -572,7 +572,7 @@
             "type": "question",
             "settings": {
               "title": "Kan jeg returnere produktet?",
-              "answer": "<p>Når du køber hos Kids by Dalsgård har du altid 30 dages fri returret. Du kan enten vælge blot at returnere enkelte produkter, såvel som det er muligt at returnere en hel ordre. <\/p>"
+              "answer": "<p>Når du køber hos Kids by Dalsgård har du altid 30 dages fri returret. <\/p><p>Sådan sender du retur til Kids By Dalsgård <br\/>Når du modtager din vare modtager du samtid også en returlabel som skal bruges i forbindelse med at sende vare tilbage til os.<br\/><br\/>Hvis du ønsker at returnere en vare, skal du være opmærksom på følgende hvis du vil være sikker på at kunne få det fulde beløb retur:<\/p><ul><li>Varen skal være i original emballage,<\/li><li>Varen må ikke have tegn på slid, pletter eller skader, eller lugte af udefrakommende dufte såsom parfumer og røg.<\/li><li>Derudover skal der være mærker på tøjet, da vi ellers ikke kan sælge varen til ny modtager.<\/li><li>F.eks. skal sko i deres originale æske igen og tøj skal i deres originale emballage ved retur.<\/li><\/ul>"
             }
           },
           "page-faq-template-6": {
