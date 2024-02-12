@@ -700,13 +700,25 @@
           "show_vendor": false,
           "show_color_swatch": false
         }
+      },
+      "newsletter_wVeaDB": {
+        "type": "newsletter",
+        "settings": {
+          "section_size": "small",
+          "text_color": "#f7f0e6",
+          "button_color": "#485456",
+          "subheading": "Hold dig opdateret",
+          "title": "Nyhedsbrev",
+          "content": "<p>Tilmelde dig nyhedsbrevet og gå ikke glip af spænde arrengeanger  samt gode rabatter  <\/p>"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "shop-the-look",
       "featured-product",
-      "blog-posts"
+      "blog-posts",
+      "newsletter_wVeaDB"
     ]
   },
   "presets": {
