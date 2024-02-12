@@ -147,7 +147,7 @@
               "subheading": "Se vores",
               "title": "Tøj til Eventyr",
               "button_1_text": "Se udvalg",
-              "button_1_link": "shopify:\/\/collections\/all",
+              "button_1_link": "shopify:\/\/products\/joha-uld-silke-jumpsuit",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -160,9 +160,9 @@
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "Hold varmen",
-              "title": "Hele vinteren",
+              "title": "Uld",
               "button_1_text": "Se udvalg",
-              "button_1_link": "",
+              "button_1_link": "shopify:\/\/products\/joha-uld-jumpsuit-ulddragt",
               "button_2_text": "",
               "button_2_link": ""
             }
