@@ -40,7 +40,7 @@
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "500",
     "social_facebook": "https:\/\/www.facebook.com\/profile.php?id=61555478155380",
-    "social_instagram": "https:\/\/www.instagram.com\/kids_by_dalsgaard\/",
+    "social_instagram": "https:\/\/www.instagram.com\/kidsbydalsgaard\/",
     "favicon": "shopify:\/\/shop_images\/favicon.svg",
     "checkout_logo_image": "shopify:\/\/shop_images\/round_logo-small.svg",
     "checkout_logo_position": "left",
@@ -684,7 +684,6 @@
     "content_for_index": [
       "slideshow",
       "shop-the-look",
-      "featured-collections",
       "featured-product",
       "blog-posts"
     ]
