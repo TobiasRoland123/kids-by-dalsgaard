@@ -608,7 +608,7 @@
           "page-faq-template-8"
         ],
         "custom_css": [
-          "p{font-weight:regular;}"
+          "p {font-weight: !important regular;}"
         ],
         "settings": {
         }
