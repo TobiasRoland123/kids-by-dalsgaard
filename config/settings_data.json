@@ -129,7 +129,7 @@
           "text_NXB4Hm"
         ],
         "custom_css": [
-          ".ImageHero__ContentOverlay{background-color:black;}"
+
         ],
         "settings": {
           "show_payment_methods": true,
