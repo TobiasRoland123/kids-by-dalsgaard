@@ -607,6 +607,9 @@
           "page-faq-template-7",
           "page-faq-template-8"
         ],
+        "custom_css": [
+          "p{font-weight:regular;}"
+        ],
         "settings": {
         }
       },
