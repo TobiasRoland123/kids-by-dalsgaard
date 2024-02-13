@@ -740,8 +740,12 @@
       },
       "newsletter_wVeaDB": {
         "type": "newsletter",
+        "custom_css": [
+
+        ],
         "settings": {
           "section_size": "small",
+          "image": "shopify:\/\/shop_images\/Joha_SS14.webp",
           "text_color": "#f7f0e6",
           "button_color": "#485456",
           "subheading": "Hold dig opdateret",
