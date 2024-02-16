@@ -62,12 +62,12 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enable_bar": false,
-          "home_page_only": false,
-          "background": "#000000",
+          "enable_bar": true,
+          "home_page_only": true,
+          "background": "#d06146",
           "text_color": "#ffffff",
-          "content": "Køb for min 500,- og få gratis fragt",
-          "link": ""
+          "content": "Åbningstilbud 15% på alle varer - Fratrækkes ved kassen",
+          "link": "shopify:\/\/collections\/all"
         }
       },
       "header": {
