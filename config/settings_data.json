@@ -759,7 +759,7 @@
       "text_with_image_HpH8zL": {
         "type": "text-with-image",
         "custom_css": [
-          "p{font-weight:regular !important;}"
+          "p {font-weight: 400 !important;}"
         ],
         "settings": {
           "subheading": "Skynd dig!",
