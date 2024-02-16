@@ -760,7 +760,7 @@
         "type": "text-with-image",
         "custom_css": [
           "p {font-weight: 400 !important;}",
-          "a {backgournd-color:var()}"
+          "a {backgournd-color: #D06146 !important;}"
         ],
         "settings": {
           "subheading": "Skynd dig!",
