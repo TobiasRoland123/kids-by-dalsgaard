@@ -767,8 +767,8 @@
           "image": "shopify:\/\/shop_images\/DALL_E_Feb_16_Discount_Label_00274f4c-c2cd-4953-aeb3-e6e2a227d1be.png",
           "image_position": "right",
           "content": "<p>Rabatten bliver fratrukket ved kassen automatisk<\/p><p>I forbindelse med åbningen af vores webshop kører vi med 15% rabat på alle varer helt frem til Søndag d. 18 Februar.<\/p><p>Skynd dig at handle mens der stadig er tilbud! Vi glæder os til at sende din ordre!<br\/><\/p>",
-          "link_text": "",
-          "link_url": ""
+          "link_text": "Se alle produkter",
+          "link_url": "shopify:\/\/collections\/all"
         }
       }
     },
